@@ -24,6 +24,14 @@ Assim que o terminal do Codespaces abrir, execute o script de testes automatizad
 ```
 
 > 💡 **Nota:** Se todos os itens exibirem `[ OK ]` em verde, seu ambiente está pronto!
+>
+> O minikube (engine Kubernetes) está desligado por default, para não consumir memória nem perdermos tempo na inicialização.
+> Para ativá-lo, digite o seguinte no terminal:
+
+```bash
+minikube start --driver=docker
+```
+
 
 ---
 
