@@ -52,6 +52,12 @@ kubectl get nodes
 kubectl get pods -A
 ```
 
+Crie um cluster com base no arquivo `k8s/pod.yaml`:
+```bash
+kubectl apply -f k8s/pod.yaml
+kubectl get pods
+```
+
 ---
 
 ## ⚠️ Regras Importantes (Consumo de Horas)
