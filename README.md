@@ -33,7 +33,7 @@ Assim que o terminal do Codespaces abrir, execute o script de testes automatizad
 Crie e execute uma imagem Linux minimalista para validar o isolamento de contêineres:
 ```bash
 docker build -t meu-primeiro-container .
-docker run meu-primeiro-container
+docker run -d -p 8000:8000 meu-primeiro-container
 ```
 
 ### Prática 2: Testando o Docker Compose
