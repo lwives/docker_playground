@@ -1,6 +1,6 @@
 {
   "name": "Docker & Kubernetes Lab",
-  "image": "microsoft.com",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "version": "latest",
