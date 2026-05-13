@@ -20,7 +20,7 @@ Não é necessário instalar nada no seu computador pessoal. Siga os passos:
 Assim que o terminal do Codespaces abrir, execute o script de testes automatizado para garantir que todos os serviços estão ativos:
 
 ```bash
-./test-env.sh
+source ./test-env.sh
 ```
 
 > 💡 **Nota:** Se todos os itens exibirem `[ OK ]` em verde, seu ambiente está pronto!
